@@ -1,0 +1,27 @@
+.home {
+  position: fixed;
+  top: 56px 0 0 0;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 56px);
+  z-index: 1;
+}
+
+.home > div {
+  width: 90%;
+  height: 60%;
+}
+.home::before {
+  content: '';
+  background: url('./images/background.jpg') 
+                no-repeat center center/cover;
+  position: fixed;
+  top: 56px;
+  left: 0px;
+  z-index: -1;
+  width: 100vw;
+  height: calc(100% - 56px);
+}
+ul {
+  list-style-type: decimal;
+}

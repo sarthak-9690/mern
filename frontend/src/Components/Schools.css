@@ -1,0 +1,19 @@
+.filterDiv {
+  display: none;
+  position: fixed;
+  background-color: #111;
+  width: 70vw;
+  height: calc(100% - 56px);
+  top: 56px;
+  left: 0;
+  z-index: 10;
+}
+@media (min-width: 576px) {
+  .filterDiv {
+    display: block;
+    background-color: transparent ;
+    position: static;
+    width: auto;
+    height: auto;
+  }
+}

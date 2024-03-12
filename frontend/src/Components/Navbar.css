@@ -1,0 +1,10 @@
+.navbar {
+  background-image: linear-gradient(to bottom, #112233, #112637, #112a3c, #112f40, #113344);
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.navbar .btn {
+  margin-top: 1.5px;
+}
